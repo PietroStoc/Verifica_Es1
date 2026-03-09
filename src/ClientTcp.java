@@ -20,7 +20,7 @@ public class ClientTcp {
 
         String risposta = in.readLine();
         System.out.println("Risposta: " + risposta);
-
+s
         socket.close();
     }
 }

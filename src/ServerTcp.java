@@ -14,7 +14,7 @@ public class ServerTcp {
         out.println("Server avviato");
 
         HashMap<String, Integer> utenti = new HashMap<>();
-
+s
         while (true) {
             Socket client = server.accept();
             out.println("Client connesso");
